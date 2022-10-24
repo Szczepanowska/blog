@@ -4,10 +4,16 @@ $navbar-default-bg: black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+body {
+  background-color: rgb(36, 39, 52);
+  color: rgb(144, 149, 147);
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
-  color: white;
+  color: whitesmoke;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
