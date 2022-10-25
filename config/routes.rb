@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # root "articles#index"
   root 'pages#index'
   get 'about', to: 'pages#about'
+  get 'signup', to: 'users#new'
 
   resources :articles
+  resources :users, except: [:new]
 end
