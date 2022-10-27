@@ -75,6 +75,8 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
+    bootstrap-will_paginate (1.0.0)
+      will_paginate
     builder (3.2.4)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
@@ -192,6 +194,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    will_paginate (3.3.0)
     zeitwerk (2.6.1)
 
 PLATFORMS
@@ -201,6 +204,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.18)
   bootsnap
   bootstrap-sass (~> 3.4.1)
+  bootstrap-will_paginate
   debug
   importmap-rails
   jbuilder
@@ -214,6 +218,7 @@ DEPENDENCIES
   turbo-rails
   tzinfo-data
   web-console
+  will_paginate (= 3.3)
 
 RUBY VERSION
    ruby 3.1.2p20

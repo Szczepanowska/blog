@@ -63,6 +63,9 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
+  gem 'will_paginate', '3.3'
+  gem 'bootstrap-will_paginate'
+
   gem 'jquery-rails'
 
 end
